@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_samples",
+  "info": {
+    "singularName": "project-sample",
+    "pluralName": "project-samples",
+    "displayName": "project_sample"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    }
+  }
+}

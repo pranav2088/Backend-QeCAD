@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_features",
+  "info": {
+    "displayName": "Statistics "
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

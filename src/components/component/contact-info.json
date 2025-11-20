@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_component_contact_infos",
+  "info": {
+    "displayName": "contact-info"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "statItem": {
+      "type": "component",
+      "component": "component.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

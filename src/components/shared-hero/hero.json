@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_hero_heroes",
+  "info": {
+    "displayName": "hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    },
+    "breadcrumb": {
+      "type": "component",
+      "component": "component.breadcrumb",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

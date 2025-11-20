@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_component_running_banner_logos",
+  "info": {
+    "displayName": "ImageWithBadge"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "badge": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

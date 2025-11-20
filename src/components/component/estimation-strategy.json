@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_estimation_strategies",
+  "info": {
+    "displayName": "Estimation Strategy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "strategy_item": {
+      "type": "component",
+      "component": "component.strategies",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

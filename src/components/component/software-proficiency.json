@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_software_proficiencies",
+  "info": {
+    "displayName": "software Proficiency"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "component",
+      "component": "component.running-banner-logo",
+      "repeatable": true
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

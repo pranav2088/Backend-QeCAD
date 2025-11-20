@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "singularName": "contact-info",
+    "pluralName": "contact-infos",
+    "displayName": "contactUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    },
+    "contactSection": {
+      "type": "component",
+      "component": "component.contact-section",
+      "repeatable": false
+    },
+    "googleMap": {
+      "type": "component",
+      "component": "component.mapsection",
+      "repeatable": false
+    }
+  }
+}

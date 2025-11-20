@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_strategies",
+  "info": {
+    "displayName": "strategies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "component",
+      "component": "component.svg-code",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

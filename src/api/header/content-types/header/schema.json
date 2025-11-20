@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "menuItem": {
+      "type": "component",
+      "component": "component.menu-item",
+      "repeatable": true
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_cta_btns",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "svg_code": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

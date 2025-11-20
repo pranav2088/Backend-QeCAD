@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_faq_items",
+  "info": {
+    "displayName": "FAQ Item"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

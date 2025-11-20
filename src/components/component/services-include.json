@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_services_includes",
+  "info": {
+    "displayName": "Services Include"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "features": {
+      "type": "component",
+      "component": "component.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

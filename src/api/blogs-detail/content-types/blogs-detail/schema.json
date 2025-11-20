@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs_details",
+  "info": {
+    "singularName": "blogs-detail",
+    "pluralName": "blogs-details",
+    "displayName": "Blogs Detail"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wp_id": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "publish_date": {
+      "type": "date"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::categorie.categorie"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "component.seo",
+      "repeatable": false
+    },
+    "social_media": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": true
+    }
+  }
+}

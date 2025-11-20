@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_home_services",
+  "info": {
+    "displayName": "Services"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

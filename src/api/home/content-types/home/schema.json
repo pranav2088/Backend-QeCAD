@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_us": {
+      "type": "component",
+      "component": "shared-home.about-us",
+      "repeatable": false
+    },
+    "key_points": {
+      "type": "component",
+      "component": "shared-home.key-points",
+      "repeatable": false
+    },
+    "testimonial": {
+      "type": "component",
+      "component": "shared-home.testimonials",
+      "repeatable": false
+    },
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    },
+    "why_choose_us": {
+      "type": "component",
+      "component": "shared-home.why-we-choose",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "component.seo",
+      "repeatable": false
+    },
+    "latest_blogs": {
+      "type": "component",
+      "component": "component.lastest-blog",
+      "repeatable": false
+    },
+    "Expertise": {
+      "type": "component",
+      "component": "component.what-we-serve",
+      "repeatable": true
+    },
+    "software_Proficiency": {
+      "type": "component",
+      "component": "component.software-proficiency",
+      "repeatable": true
+    },
+    "sample": {
+      "type": "component",
+      "component": "component.sample",
+      "repeatable": false
+    }
+  }
+}

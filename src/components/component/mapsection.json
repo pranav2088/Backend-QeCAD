@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_component_mapsections",
+  "info": {
+    "displayName": "Mapsection"
+  },
+  "options": {},
+  "attributes": {
+    "mapUrl": {
+      "type": "text"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "border": {
+      "type": "string"
+    },
+    "loading": {
+      "type": "enumeration",
+      "enum": [
+        "lazy",
+        "eager"
+      ]
+    }
+  },
+  "config": {}
+}

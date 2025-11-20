@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_svg_codes",
+  "info": {
+    "displayName": "svg_icon"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

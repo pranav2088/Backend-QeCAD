@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "thankyous",
+  "info": {
+    "singularName": "thankyou",
+    "pluralName": "thankyous",
+    "displayName": "thankyou"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    }
+  }
+}

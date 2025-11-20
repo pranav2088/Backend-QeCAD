@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_scripts",
+  "info": {
+    "singularName": "global-script",
+    "pluralName": "global-scripts",
+    "displayName": "GlobalScript"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "googleTagManager": {
+      "type": "text"
+    },
+    "fbScript": {
+      "type": "text"
+    },
+    "chatScript": {
+      "type": "text"
+    },
+    "instaScript": {
+      "type": "string"
+    }
+  }
+}

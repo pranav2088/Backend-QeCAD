@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_service_overviews",
+  "info": {
+    "displayName": "service-overview"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "service_Item": {
+      "type": "component",
+      "component": "component.services",
+      "repeatable": true
+    },
+    "estimation_Strategy": {
+      "type": "component",
+      "component": "component.estimation-strategy",
+      "repeatable": false
+    },
+    "estimation_footer": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

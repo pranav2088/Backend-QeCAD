@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_about_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    },
+    "faqitem": {
+      "type": "component",
+      "component": "component.faq-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

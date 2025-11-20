@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_tabs",
+  "info": {
+    "displayName": "Tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

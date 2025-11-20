@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_component_contact_sections",
+  "info": {
+    "displayName": "contact-section"
+  },
+  "options": {},
+  "attributes": {
+    "info_block": {
+      "type": "component",
+      "component": "component.contact-info",
+      "repeatable": false
+    },
+    "form_block": {
+      "type": "component",
+      "component": "component.contact-form",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

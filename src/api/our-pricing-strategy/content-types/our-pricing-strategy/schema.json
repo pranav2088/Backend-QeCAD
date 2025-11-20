@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_pricing_strategies",
+  "info": {
+    "singularName": "our-pricing-strategy",
+    "pluralName": "our-pricing-strategies",
+    "displayName": "ourPricingStrategy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    },
+    "service_Overview": {
+      "type": "component",
+      "component": "component.service-overview",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "component.seo",
+      "repeatable": false
+    }
+  }
+}

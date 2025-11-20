@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_seos",
+  "info": {
+    "displayName": "seo"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "canonicalURL": {
+      "type": "string"
+    },
+    "schemaMarkup": {
+      "type": "json"
+    },
+    "ogTags": {
+      "type": "richtext"
+    },
+    "twitterTags": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

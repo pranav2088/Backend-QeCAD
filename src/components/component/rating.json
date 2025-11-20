@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_ratings",
+  "info": {
+    "displayName": "Rating"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "decimal",
+      "min": 0,
+      "max": 5
+    },
+    "svg_icon": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

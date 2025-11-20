@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_samples",
+  "info": {
+    "displayName": "Sample"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sample_image": {
+      "type": "component",
+      "component": "component.running-banner-logo",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

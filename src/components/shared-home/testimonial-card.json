@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_home_testimonial_cards",
+  "info": {
+    "displayName": "testimonial_card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "role": {
+      "type": "string"
+    },
+    "quote_icon": {
+      "type": "component",
+      "component": "component.svg-code",
+      "repeatable": true
+    },
+    "rating": {
+      "type": "component",
+      "component": "component.rating",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

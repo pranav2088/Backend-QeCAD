@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_home_recent_projects",
+  "info": {
+    "displayName": "Recent Projects"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardHeading": {
+      "type": "string"
+    },
+    "cardDescription": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    },
+    "svg_icon": {
+      "type": "component",
+      "component": "component.svg-code",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

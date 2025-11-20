@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_lastest_blogs",
+  "info": {
+    "displayName": "Latest Blog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_home_client_types",
+  "info": {
+    "displayName": "client_type"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

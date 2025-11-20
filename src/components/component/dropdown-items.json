@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_dropdown_items",
+  "info": {
+    "displayName": "link_item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

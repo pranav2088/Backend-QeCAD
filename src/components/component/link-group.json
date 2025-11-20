@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_link_groups",
+  "info": {
+    "displayName": "link-group"
+  },
+  "options": {},
+  "attributes": {
+    "group_title": {
+      "type": "string"
+    },
+    "linkItem": {
+      "type": "component",
+      "component": "component.dropdown-items",
+      "repeatable": true
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

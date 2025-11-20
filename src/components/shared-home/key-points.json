@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_home_key_points",
+  "info": {
+    "displayName": "key_points"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "key_services": {
+      "type": "component",
+      "component": "shared-home.services",
+      "repeatable": true
+    },
+    "badge": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_what_we_serves",
+  "info": {
+    "displayName": "what_We_Serve"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "feature_section": {
+      "type": "component",
+      "component": "component.feature",
+      "repeatable": true
+    },
+    "badge": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    },
+    "aboutCompany": {
+      "type": "component",
+      "component": "shared-home.about-us",
+      "repeatable": false
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "component": "shared-about.why-we-choose",
+      "repeatable": false
+    },
+    "ourTeam": {
+      "type": "component",
+      "component": "shared-home.our-team",
+      "repeatable": true
+    },
+    "testimonial": {
+      "type": "component",
+      "component": "shared-home.testimonials",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared-about.faq",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "component.seo",
+      "repeatable": false
+    }
+  }
+}

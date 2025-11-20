@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_component_client_inputs",
+  "info": {
+    "displayName": "ClientInput"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "year_of_experience": {
+      "type": "component",
+      "component": "component.svg-code",
+      "repeatable": false
+    },
+    "points": {
+      "type": "component",
+      "component": "component.svg-code",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

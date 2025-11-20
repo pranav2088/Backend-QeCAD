@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_contact_forms",
+  "info": {
+    "displayName": "contact-form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "component",
+      "component": "component.form-field",
+      "repeatable": true
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

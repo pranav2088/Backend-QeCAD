@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_home_why_we_chooses",
+  "info": {
+    "displayName": "Why We Choose"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "features": {
+      "type": "component",
+      "component": "component.feature",
+      "repeatable": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "component.stats",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

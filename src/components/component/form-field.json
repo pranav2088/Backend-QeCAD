@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_component_form_fields",
+  "info": {
+    "displayName": "form-field"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "textarea",
+        "number",
+        "select",
+        "file",
+        "radio"
+      ]
+    },
+    "required": {
+      "type": "boolean",
+      "default": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "options": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

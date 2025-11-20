@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "casestudies",
+  "info": {
+    "singularName": "casestudy",
+    "pluralName": "casestudies",
+    "displayName": "casestudy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    },
+    "project_objective": {
+      "type": "component",
+      "component": "shared-home.about-us",
+      "repeatable": false
+    },
+    "project_infomation": {
+      "type": "component",
+      "component": "component.stats",
+      "repeatable": true
+    },
+    "project_description": {
+      "type": "component",
+      "component": "shared-home.about-us",
+      "repeatable": false
+    },
+    "clientInputs": {
+      "type": "component",
+      "component": "component.client-inputs",
+      "repeatable": false
+    },
+    "challenge_and_approach": {
+      "type": "component",
+      "component": "component.estimation-strategy",
+      "repeatable": true
+    },
+    "businessNeed": {
+      "type": "component",
+      "component": "component.estimation-strategy",
+      "repeatable": false
+    }
+  }
+}

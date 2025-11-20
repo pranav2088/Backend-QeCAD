@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared-hero.hero",
+      "repeatable": false
+    },
+    "aboutService": {
+      "type": "component",
+      "component": "shared-home.about-us",
+      "repeatable": false
+    },
+    "service_Include": {
+      "type": "component",
+      "component": "component.services-include",
+      "repeatable": false
+    },
+    "why_choose_us": {
+      "type": "component",
+      "component": "shared-home.why-we-choose",
+      "repeatable": false
+    },
+    "caseStudy": {
+      "type": "component",
+      "component": "shared-home.our-team",
+      "repeatable": true
+    },
+    "What_We_Serve": {
+      "type": "component",
+      "component": "component.what-we-serve",
+      "repeatable": false
+    },
+    "software_Proficiency": {
+      "type": "component",
+      "component": "component.software-proficiency",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "component.seo",
+      "repeatable": false
+    },
+    "advantages": {
+      "type": "component",
+      "component": "component.image-with-points",
+      "repeatable": false
+    },
+    "benefits": {
+      "type": "component",
+      "component": "component.image-with-points",
+      "repeatable": false
+    },
+    "lod_US": {
+      "type": "component",
+      "component": "component.lod-section",
+      "repeatable": true
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared-about.faq",
+      "repeatable": false
+    }
+  }
+}

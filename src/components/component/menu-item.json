@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_component_menu_items",
+  "info": {
+    "displayName": "menu_item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "has_dropdown": {
+      "type": "boolean"
+    },
+    "menuType": {
+      "type": "enumeration",
+      "enum": [
+        "megamenu",
+        "submenu"
+      ]
+    },
+    "dropdownItem": {
+      "type": "component",
+      "component": "component.link-group",
+      "repeatable": true
+    },
+    "dropdownIcon": {
+      "type": "component",
+      "component": "component.cta-btn",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
